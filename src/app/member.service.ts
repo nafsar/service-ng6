@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { map, catchError } from 'rxjs/operators';
-import { observable, Observable } from 'rxjs';
+import { Observable } from 'rxjs';
 import { Mem } from './mem';
 
 @Injectable({
